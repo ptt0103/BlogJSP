@@ -40,25 +40,24 @@
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                         </form>
                         <div  class="my-2 my-lg-0 d-flex align-items-center">
-                            <a href='/login.jsp'> <button   class='btn btn-outline-success my-2 my-sm-0 mr-2' type='button'> Đăng nhập</button></a>
-                            <a href='/register.jsp'> <button class='btn my-2 my-sm-0' type='button'>Đăng ký</button></a>
+                            <a href='/login'> <button   class='btn btn-outline-success my-2 my-sm-0 mr-2' type='button'> Đăng nhập</button></a>
+                            <a href='/register'> <button class='btn my-2 my-sm-0' type='button'>Đăng ký</button></a>
                         </div>
                     </div>
                 </nav>
            
-        <div class="container">
-            <div class="row">
-                <div style="position: relative; height: 100vh" class="col-sm-12">
-                    <div class="form">
+                <div class="container" style="margin-top: 20%">
+            <div class="row justify-content-center ">
+                <div class="form justify-content-center" style="width:600px">
                         <form action="/register" method="post">
-                            <p class="form__title">Đăng ký</p>
-                            <input type="text"  name="username"  autocomplete="off"   placeholder="Tài khoản" />
+                            <h3 class="form__title">Đăng ký</h3>
+                            <input type="text"  name="username"  autocomplete="off"   placeholder="Tài khoản" style="width:100%"/>
                             <br />
-                            <input type="password"  name="password"  autocomplete="off" placeholder="Mật khẩu" />
+                            <input type="password"  name="password"  autocomplete="off" placeholder="Mật khẩu" style="width:100%"/>
                             <br />
-                            <input  type="password"   name="repass" autocomplete="off" placeholder="Nhập lại mật khẩu" />
+                            <input  type="password"   name="repass" autocomplete="off" placeholder="Nhập lại mật khẩu" style="width:100%"/>
                             <br />
-                            <input  type="text"  name="name" autocomplete="off" placeholder="Tên"/>
+                            <input  type="text"  name="name" autocomplete="off" placeholder="Tên" style="width:100%"/>
                             <br /><br />
                             <button type="submit" class="Form__btn btn btn-warning mr-2"> Đăng ký </button>
                             <a class="" href="login">Đăng nhập</a>
@@ -66,7 +65,7 @@
                             <p class="form__alert--warning">${regError}</p>
                         </form>
                     </div>
-                </div>
+                
             </div>
         </div>
     </body>

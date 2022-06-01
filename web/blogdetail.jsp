@@ -69,7 +69,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row justify-content-center">
                 <div class="col-6"> <img width="300" src="../assets/img/${blog.img}" alt="ảnh" />
                     <p>
                         <strong>
@@ -79,19 +79,19 @@
                     <br/>
                     <p>${blog.content}</p></div>
             </div>
-            <div class="row mb-5">
+            <div class="row">
                 <div class="col-6">     
                     <br/>
                     <br/>
                     <form action="/comment" method="post">
                         <input name="blogid" value="${blog.id}" type="hidden">
 
-                        <input name="content" type="text">
+                        <textarea name="content" type="text" style="width: 75%; height: 50%"></textarea>
                         <button type="submit" class="btn btn-primary">Bình luận</button>
 
                     </form></div>
             </div>
-            <div class="row mb-5">
+            <div class="row">
                 <div class="col-12">  
                     <c:forEach items="${blog.comments}" var="comment">
                         <div class="d-flex">

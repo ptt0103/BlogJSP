@@ -47,7 +47,7 @@
                                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                             </form>
                             <div class="my-2 my-lg-0 d-flex align-items-center">
-                                <a  href='/account.jsp'><i class='navbar__account fas fa-user-circle mr-2' style="font-size: 20px">${user_name}</i></a>
+                                <a  href='#'><i class='navbar__account fas fa-user-circle mr-2' style="font-size: 20px">${user_name}</i></a>
                                 <form action='/logout'>
                                     <button class='btn btn-outline-warning my-2 my-sm-0 mr-2' type='submit'/> Đăng xuất </button>
                                 </form> 

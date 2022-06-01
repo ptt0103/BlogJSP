@@ -39,18 +39,18 @@
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                         </form>
                         <div  class="my-2 my-lg-0 d-flex align-items-center">
-                            <a href='/login.jsp'> <button   class='btn btn-outline-success my-2 my-sm-0 mr-2' type='button'> Đăng nhập</button></a>
-                            <a href='/register.jsp'> <button class='btn my-2 my-sm-0' type='button'>Đăng ký</button></a>
+                            <a href='/login'> <button   class='btn btn-outline-success my-2 my-sm-0 mr-2' type='button'> Đăng nhập</button></a>
+                            <a href='/register'> <button class='btn my-2 my-sm-0' type='button'>Đăng ký</button></a>
                         </div>
                     </div>
                 </nav>
                 <!-- body -->
-                <div  class="col-sm-12" style="margin-top: 20%;">
-                    <div class="form " style="align-items: center;">
+                <div  class="col-sm-12 justify-content-center" style="margin: 20%;">
+                    <div class="form ">
                         <form action="/login" method="post">
-                            <p class="form__title">Đăng nhập</p>
-                            <input type="text" name="username" autocomplete="off" placeholder="Tài khoản" /> <br/>
-                            <input type="password" name="password"  autocomplete="off" placeholder="Mật khẩu" /> <br/><br/>
+                            <h3 class="form__title justify-content-center">Đăng nhập</h3>
+                            <input type="text" name="username" autocomplete="off" placeholder="Tài khoản" style="width: 50%"/> <br/>
+                            <input type="password" name="password"  autocomplete="off" placeholder="Mật khẩu" style="width: 50%"/> <br/><br/>
 
                             <button type="submit" class="Form__btn btn btn-warning mr-2">Đăng nhập</button>
                             <a class="form__signUp" href="/register">Tạo tài khoản</a>
